@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>PUB2</title>
+  </head>
+  <body>
+    <header class="">
+      <div class="header_top">
+        <div class="rows container">
+          <div class="col-left">
+            <div class="left_bar d-md-none d-block">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="left_logo">
+              <img
+                width="38.83px"
+                height="24px"
+                src="/img/logo.png"
+                alt="logo"
+              />
+              <div class="d-md-block d-none">ACCESSTRADE</div>
+            </div>
+            <div class="col_white d-md-block d-none"></div>
+            <div class="d-md-block d-none">
+              <div class="left_sub">
+                <p>Hướng dẫn</p>
+                <p>Nhiệm vụ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="right_search">
+              <input
+                class="d-none d-md-block"
+                type="text"
+                placeholder="Search"
+              />
+              <img
+                class=""
+                width="20px"
+                height="20px"
+                src="/img/input-search.png"
+                alt="search"
+              />
+            </div>
+            <div class="right_native">
+              <div>
+                <img
+                  width="20px"
+                  height="20px"
+                  src="/img/report.png"
+                  alt="report"
+                />
+                <p class="d-none d-md-block">Báo mất đơn hàng</p>
+              </div>
+              <img
+                width="20px"
+                height="20px"
+                src="/img/email.png"
+                alt="email"
+              />
+              <span class="right_notice">
+                <img
+                  width="20px"
+                  height="20px"
+                  src="/img/notice.png"
+                  alt="notice"
+                />
+                <span></span>
+              </span>
+              <img
+                width="40px"
+                height="40px"
+                src="/img/avater.png"
+                alt="avater"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom d-md-block d-none">
+        <ul class="container">
+          <li>
+            <img
+              width="24px"
+              height="24px"
+              src="/img/overview.png"
+              alt="overview"
+            />
+            <p>Tổng quan</p>
+          </li>
+          <li>
+            <img
+              width="24px"
+              height="24px"
+              src="/img/campaign.png"
+              alt="campaign"
+            />
+            <p>Chiến dịch</p>
+          </li>
+          <li>
+            <img
+              width="24px"
+              height="24px"
+              src="/img/chart.png"
+              alt="campaign"
+            />
+            <p>Báo cáo</p>
+            <img width="20px" height="20px" src="/img/down.png" alt="down" />
+          </li>
+          <li>
+            <img
+              width="24px"
+              height="24px"
+              src="/img/tool.png"
+              alt="campaign"
+            />
+            <p>Công cụ</p>
+            <img width="20px" height="20px" src="/img/down.png" alt="down" />
+          </li>
+          <li>
+            <img width="24px" height="24px" src="/img/pay.png" alt="campaign" />
+            <p>Thanh toán</p>
+            <img width="20px" height="20px" src="/img/down.png" alt="down" />
+          </li>
+          <li>
+            <img
+              width="24px"
+              height="24px"
+              src="/img/help.png"
+              alt="campaign"
+            />
+            <p>Trợ giúp</p>
+            <img width="20px" height="20px" src="/img/down.png" alt="down" />
+          </li>
+          <li>
+            <img
+              width="24px"
+              height="24px"
+              src="/img/event.png"
+              alt="campaign"
+            />
+            <p>Event</p>
+            <img width="20px" height="20px" src="/img/down.png" alt="down" />
+          </li>
+          <li>
+            <img
+              width="24px"
+              height="24px"
+              src="/img/warning.png"
+              alt="campaign"
+            />
+            <p>Vi phạm</p>
+            <span class="numer_warning">10</span>
+            <img width="20px" height="20px" src="/img/down.png" alt="down" />
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="banner d-md-block d-none">
+          <img width="100%" src="/img/banner.png" />
+        </div>
+        <div class="rows">
+          <div class="col_left">
+            <div class="title_filter">
+              <img
+                width="24px"
+                height="24px"
+                src="/img/filter-search.png"
+                alt="filter-search"
+              />
+              <p class="d-md-block d-none">Lọc</p>
+            </div>
+            <div class="left_filter-option d-md-block d-none">
+              <div class="left_option">
+                <div>
+                  <select>
+                    <option value="null">Trạng thái</option>
+                    <!---->
+                    <option value="1">Đã duyệt</option>
+                    <option value="2">Khóa</option>
+                    <option value="-1">Mới</option>
+                    <option value="0">Chờ duyệt</option>
+                  </select>
+                  <img
+                    width="20px"
+                    height="20px"
+                    src="/img/down.png"
+                    alt="down"
+                  />
+                </div>
+                <div>
+                  <select
+                    class="custom-select card-radius ng-pristine ng-valid ng-touched"
+                  >
+                    <option value="">Ngành hàng</option>
+                    <!---->
+                    <option value="Điện thoại - Máy tính bảng">
+                      Điện thoại - Máy tính bảng
+                    </option>
+                    <option value="Tivi-âm thanh">Tivi-âm thanh</option>
+                    <option value="Thiết bị gia dụng">Thiết bị gia dụng</option>
+                    <option value="Điện lạnh - điện máy">
+                      Điện lạnh - điện máy
+                    </option>
+                    <option value="Máy ảnh - máy quay phim ">
+                      Máy ảnh - máy quay phim
+                    </option>
+                    <option value="Máy tính - Laptop - Phụ kiện ">
+                      Máy tính - Laptop - Phụ kiện
+                    </option>
+                    <option value="Mẹ và bé">Mẹ và bé</option>
+                    <option value="Sức khỏe - Làm đẹp">
+                      Sức khỏe - Làm đẹp
+                    </option>
+                    <option value="Bách hóa">Bách hóa</option>
+                    <option value="Nội thất">Nội thất</option>
+                    <option value="Sách - VPP - Quà tặng">
+                      Sách - VPP - Quà tặng
+                    </option>
+                    <option value="Nhạc cụ">Nhạc cụ</option>
+                    <option value="Đồ thể thao">Đồ thể thao</option>
+                    <option value="Máy công nghiệp">Máy công nghiệp</option>
+                    <option value="Thời trang">Thời trang</option>
+                    <option value="Ô tô, xe máy, xe đạp">
+                      Ô tô, xe máy, xe đạp
+                    </option>
+                    <option value="Voucher &amp; Dịch vụ">
+                      Voucher &amp; Dịch vụ
+                    </option>
+                    <option value="Công nghệ">Công nghệ</option>
+                    <option value="Tin học">Tin học</option>
+                    <option value="Đồ dùng du lịch, thể thao, dã ngoại">
+                      Đồ dùng du lịch, thể thao, dã ngoại
+                    </option>
+                    <option value="Nhà cửa đời sống">Nhà cửa đời sống</option>
+                    <option value="Dịch vụ du lịch">Dịch vụ du lịch</option>
+                    <option value="Thời trang">Thời trang</option>
+                    <option value="Hàng nhập ngoại">Hàng nhập ngoại</option>
+                    <option value="Thực phẩm chức năng">
+                      Thực phẩm chức năng
+                    </option>
+                    <option value="Đồ chơi">Đồ chơi</option>
+                    <option value="Thức ăn thú cưng">Thức ăn thú cưng</option>
+                    <option value="Other">Other</option>
+                    <option value="Điện tử và công nghệ">
+                      Điện tử và công nghệ
+                    </option>
+                    <option value="Sàn TMĐT">Sàn TMĐT</option>
+                  </select>
+                  <img
+                    width="20px"
+                    height="20px"
+                    src="/img/down.png"
+                    alt="down"
+                  />
+                </div>
+                <div>
+                  <select
+                    class="custom-select card-radius ng-untouched ng-pristine ng-valid"
+                  >
+                    <option value="0">Loại hình</option>
+                    <!---->
+                    <option value="1">CPA</option>
+                    <option value="2">CPL</option>
+                    <option value="3">CPS</option>
+                    <option value="5">CPI</option>
+                    <option value="6">CPQL</option>
+                    <option value="7">CPR</option>
+                    <option value="8">CPC</option>
+                    <option value="1000">D2C</option>
+                    <option value="1001">MIX</option>
+                    <option value="1001">Hỗn hợp</option>
+                  </select>
+                  <img
+                    width="20px"
+                    height="20px"
+                    src="/img/down.png"
+                    alt="down"
+                  />
+                </div>
+                <div>
+                  <select
+                    class="custom-select card-radius ng-pristine ng-valid ng-touched"
+                  >
+                    <option value="">Quốc gia</option>
+                    <!---->
+                    <option value="618491791857496508">VIETNAM</option>
+                    <option value="618491791899986547">THAILAND</option>
+                    <option value="618491791898364739">INDONESIA</option>
+                    <option value="618491791896871080">SINGAPORE</option>
+                    <option value="618491791899675137">JAPAN</option>
+                    <option value="618491791908902490">CANADA</option>
+                    <option value="618491791905259000">FRANCE</option>
+                    <option value="618491791907111193">GERMANY</option>
+                    <option value="618491791907882538">SPAIN</option>
+                    <option value="618491791917074689">SWEDEN</option>
+                    <option value="618491791914008342">UNITED KINGDOM</option>
+                    <option value="618491791916014448">UNITED STATES</option>
+                    <option value="618491791914107321">AFGHANISTAN</option>
+                    <option value="618491791923137885">ALAND ISLANDS</option>
+                    <option value="618491791925972710">ALBANIA</option>
+                    <option value="618491791923499474">ALGERIA</option>
+                    <option value="618491791924682659">AMERICAN SAMOA</option>
+                    <option value="618491791926021551">ANDORRA</option>
+                    <option value="618491791932406863">ANGOLA</option>
+                    <option value="618491791930386719">ANGUILLA</option>
+                    <option value="618491791932068432">ANTARCTICA</option>
+                    <option value="618491791933932463">
+                      ANTIGUA AND BARBUDA
+                    </option>
+                    <option value="618491791932510699">ARGENTINA</option>
+                    <option value="618491791931814598">ARMENIA</option>
+                    <option value="618491791942814045">ARUBA</option>
+                    <option value="618491791939076994">
+                      ASIA/PACIFIC REGION
+                    </option>
+                    <option value="618491791939029275">AUSTRALIA</option>
+                    <option value="618491791940855210">AUSTRIA</option>
+                    <option value="618491791940733071">AZERBAIJAN</option>
+                    <option value="618491791939111572">BAHAMAS</option>
+                    <option value="618491791951040908">BAHRAIN</option>
+                    <option value="618491791950728169">BANGLADESH</option>
+                    <option value="618491791947360688">BARBADOS</option>
+                    <option value="618491791950540018">BELARUS</option>
+                    <option value="618491791948969555">BELGIUM</option>
+                    <option value="618491791959492140">BELIZE</option>
+                    <option value="618491791959015888">BENIN</option>
+                    <option value="618491791956346293">BERMUDA</option>
+                    <option value="618491791957174785">BHUTAN</option>
+                    <option value="618491791956326652">BOLIVIA</option>
+                    <option value="618491791958059431">
+                      BONAIRE, SAINT EUSTATIUS AND SABA
+                    </option>
+                    <option value="618491791974761233">
+                      BOSNIA AND HERZEGOVINA
+                    </option>
+                    <option value="618491791974403294">BOTSWANA</option>
+                    <option value="618491791975936206">BOUVET ISLAND</option>
+                    <option value="618491791973378502">BRAZIL</option>
+                    <option value="618491791984583542">
+                      BRITISH INDIAN OCEAN TERRITORY
+                    </option>
+                    <option value="618491791983517019">
+                      BRUNEI DARUSSALAM
+                    </option>
+                    <option value="618491791983684244">BULGARIA</option>
+                    <option value="618491791984291268">BURKINA FASO</option>
+                    <option value="618491791990754840">BURUNDI</option>
+                    <option value="618491791989325323">CAMBODIA</option>
+                    <option value="618491791990880136">CAMEROON</option>
+                    <option value="618491792000816423">CAPE VERDE</option>
+                    <option value="618491791998163754">CAYMAN ISLANDS</option>
+                    <option value="618491791998217979">
+                      CENTRAL AFRICAN REPUBLIC
+                    </option>
+                    <option value="618491791999341576">CHAD</option>
+                    <option value="618491791998792466">CHILE</option>
+                    <option value="618491792007173511">CHINA</option>
+                    <option value="618491792008659045">CHRISTMAS ISLAND</option>
+                    <option value="618491792009181838">
+                      COCOS (KEELING) ISLANDS
+                    </option>
+                    <option value="618491792008098109">COLOMBIA</option>
+                    <option value="618491792006921917">COMOROS</option>
+                    <option value="618491792008751179">CONGO</option>
+                    <option value="618491792014927844">CONGO</option>
+                    <option value="618491792016713240">COOK ISLANDS</option>
+                    <option value="618491792017019983">COSTA RICA</option>
+                    <option value="618491792015609086">COTE DIVOIRE</option>
+                    <option value="618491792014501205">CROATIA</option>
+                    <option value="618491792023095209">CURACAO</option>
+                    <option value="618491792025528209">CYPRUS</option>
+                    <option value="618491792024514554">CZECH REPUBLIC</option>
+                    <option value="618491792023529538">DENMARK</option>
+                    <option value="618491792024144221">DJIBOUTI</option>
+                    <option value="618491792034772852">DOMINICA</option>
+                    <option value="618491792034155362">
+                      DOMINICAN REPUBLIC
+                    </option>
+                    <option value="618491792034360783">ECUADOR</option>
+                    <option value="618491792034995596">EGYPT</option>
+                    <option value="618491792033076981">EL SALVADOR</option>
+                    <option value="618491792033059610">
+                      EQUATORIAL GUINEA
+                    </option>
+                    <option value="618491792039657386">ERITREA</option>
+                    <option value="618491792042272719">ESTONIA</option>
+                    <option value="618491792042027321">ETHIOPIA</option>
+                    <option value="618491792042700751">
+                      FALKLAND ISLANDS (MALVINAS)
+                    </option>
+                    <option value="618491792039576362">FAROE ISLANDS</option>
+                    <option value="618491792047977984">FIJI</option>
+                    <option value="618491792048398517">FINLAND</option>
+                    <option value="618491792047773758">FRENCH GUIANA</option>
+                    <option value="618491792049469872">FRENCH POLYNESIA</option>
+                    <option value="618491792048155915">
+                      FRENCH SOUTHERN TERRITORIES
+                    </option>
+                    <option value="618491792059363391">GABON</option>
+                    <option value="618491792058108385">GAMBIA</option>
+                    <option value="618491792058128775">GEORGIA</option>
+                    <option value="618491792057703294">GHANA</option>
+                    <option value="618491792057504471">GIBRALTAR</option>
+                    <option value="618491792057689466">GREECE</option>
+                    <option value="618491792065373974">GREENLAND</option>
+                    <option value="618491792067062896">GRENADA</option>
+                    <option value="618491792065031430">GUADELOUPE</option>
+                    <option value="618491792064747786">GUAM</option>
+                    <option value="618491792066064616">GUATEMALA</option>
+                    <option value="618491792075329421">GUERNSEY</option>
+                    <option value="618491792073511609">GUINEA</option>
+                    <option value="618491792074682990">GUINEA-BISSAU</option>
+                    <option value="618491792073794728">GUYANA</option>
+                    <option value="618491792073876512">HAITI</option>
+                    <option value="618491792083227639">
+                      HEARD ISLAND AND MCDONALD ISLANDS
+                    </option>
+                    <option value="618491792085389363">
+                      HOLY SEE (VATICAN CITY STATE)
+                    </option>
+                    <option value="618491792082098199">HONDURAS</option>
+                    <option value="618491792083777295">HONG KONG</option>
+                    <option value="618491792082559720">HUNGARY</option>
+                    <option value="618491792091559956">ICELAND</option>
+                    <option value="618491792092547451">INDIA</option>
+                    <option value="618491792093037031">
+                      IRAN, ISLAMIC REPUBLIC OF
+                    </option>
+                    <option value="618491792092759426">IRAQ</option>
+                    <option value="618491792091342776">IRELAND</option>
+                    <option value="618491792090546183">ISLE OF MAN</option>
+                    <option value="618491792101809790">ISRAEL</option>
+                    <option value="618491792098613886">ITALY</option>
+                    <option value="618491792101237391">JAMAICA</option>
+                    <option value="618491792100265566">JERSEY</option>
+                    <option value="618491792099681377">JORDAN</option>
+                    <option value="618491792106917725">KAZAKHSTAN</option>
+                    <option value="618491792117259787">KENYA</option>
+                    <option value="618491792115016076">KIRIBATI</option>
+                    <option value="618491792116210995">
+                      KOREA, REPUBLIC OF
+                    </option>
+                    <option value="618491792117745447">KUWAIT</option>
+                    <option value="618491792117509278">KYRGYZSTAN</option>
+                    <option value="618491792126448673">
+                      LAO PEOPLES DEMOCRATIC REPUBLIC
+                    </option>
+                    <option value="618491792126369856">LATVIA</option>
+                    <option value="618491792123342571">LEBANON</option>
+                    <option value="618491792124348655">LESOTHO</option>
+                    <option value="618491792126495502">LIBERIA</option>
+                    <option value="618491792132764030">
+                      LIBYAN ARAB JAMAHIRIYA
+                    </option>
+                    <option value="618491792135548394">LIECHTENSTEIN</option>
+                    <option value="618491792133939580">LITHUANIA</option>
+                    <option value="618491792132922897">LUXEMBOURG</option>
+                    <option value="618491792134743202">MACAO</option>
+                    <option value="618491792132277538">
+                      MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF
+                    </option>
+                    <option value="618491792142191279">MADAGASCAR</option>
+                    <option value="618491792142852973">MALAWI</option>
+                    <option value="618491792140655817">MALAYSIA</option>
+                    <option value="618491792142969586">MALDIVES</option>
+                    <option value="618491792140572043">MALI</option>
+                    <option value="618491792152283661">MALTA</option>
+                    <option value="618491792149450564">MARSHALL ISLANDS</option>
+                    <option value="618491792148876847">MARTINIQUE</option>
+                    <option value="618491792148570811">MAURITANIA</option>
+                    <option value="618491792158121948">MAURITIUS</option>
+                    <option value="618491792160950165">MAYOTTE</option>
+                    <option value="618491792160301146">MEXICO</option>
+                    <option value="618491792158732050">
+                      MICRONESIA, FEDERATED STATES OF
+                    </option>
+                    <option value="618491792157851888">
+                      MOLDOVA, REPUBLIC OF
+                    </option>
+                    <option value="618491792168378688">MONACO</option>
+                    <option value="618491792165451233">MONGOLIA</option>
+                    <option value="618491792166106133">MONTENEGRO</option>
+                    <option value="618491792168596084">MONTSERRAT</option>
+                    <option value="618491792168873790">MOROCCO</option>
+                    <option value="618491792165211954">MOZAMBIQUE</option>
+                    <option value="618491792174738099">MYANMAR</option>
+                    <option value="618491792175979599">NAMIBIA</option>
+                    <option value="618491792174862790">NAURU</option>
+                    <option value="618491792174465353">NEPAL</option>
+                    <option value="618491792177293899">NETHERLANDS</option>
+                    <option value="618491792174110328">
+                      NETHERLANDS ANTILLES
+                    </option>
+                    <option value="618491792185090377">NEW CALEDONIA</option>
+                    <option value="618491792185416948">NEW ZEALAND</option>
+                    <option value="618491792182239338">NICARAGUA</option>
+                    <option value="618491792183642558">NIGER</option>
+                    <option value="618491792200278981">NIGERIA</option>
+                    <option value="618491792199105928">NIUE</option>
+                    <option value="618491792202391532">NORFOLK ISLAND</option>
+                    <option value="618491792202074417">
+                      NORTHERN MARIANA ISLANDS
+                    </option>
+                    <option value="618491792209740304">NORWAY</option>
+                    <option value="618491792209321166">OMAN</option>
+                    <option value="618491792207587559">PAKISTAN</option>
+                    <option value="618491792208081329">PALAU</option>
+                    <option value="618491792209257252">
+                      PALESTINIAN TERRITORY, OCCUPIED
+                    </option>
+                    <option value="618491792219672482">PANAMA</option>
+                    <option value="618491792216280403">PAPUA NEW GUINEA</option>
+                    <option value="618491792218846254">PARAGUAY</option>
+                    <option value="618491792218918199">PERU</option>
+                    <option value="618491792216741468">PHILIPPINES</option>
+                    <option value="618491792226784511">PITCAIRN</option>
+                    <option value="618491792225370474">POLAND</option>
+                    <option value="618491792227174036">PORTUGAL</option>
+                    <option value="618491792227987628">PUERTO RICO</option>
+                    <option value="618491792226017978">QATAR</option>
+                    <option value="618491792232394785">REUNION</option>
+                    <option value="618491792232455845">ROMANIA</option>
+                    <option value="618491792242658557">
+                      RUSSIAN FEDERATION
+                    </option>
+                    <option value="618491792240791638">RWANDA</option>
+                    <option value="618491792241554723">SAINT HELENA</option>
+                    <option value="618491792242754337">
+                      SAINT KITTS AND NEVIS
+                    </option>
+                    <option value="618491792244033970">SAINT LUCIA</option>
+                    <option value="618491792250373889">SAINT MARTIN</option>
+                    <option value="618491792252120369">SAINT MARTIN</option>
+                    <option value="618491792249290935">
+                      SAINT PIERRE AND MIQUELON
+                    </option>
+                    <option value="618491792252462460">
+                      SAINT VINCENT AND THE GRENADINES
+                    </option>
+                    <option value="618491792251097616">SAMOA</option>
+                    <option value="618491792249282408">SAN MARINO</option>
+                    <option value="618491792258611937">
+                      SAO TOME AND PRINCIPE
+                    </option>
+                    <option value="618491792258268964">SAUDI ARABIA</option>
+                    <option value="618491792258596270">SENEGAL</option>
+                    <option value="618491792260042598">SERBIA</option>
+                    <option value="618491792258973851">
+                      SERBIA AND MONTENEGRO
+                    </option>
+                    <option value="618491792261396900">SEYCHELLES</option>
+                    <option value="618491792268121040">SIERRA LEONE</option>
+                    <option value="618491792266641999">SLOVAKIA</option>
+                    <option value="618491792267048336">SLOVENIA</option>
+                    <option value="618491792268601313">SOLOMON ISLANDS</option>
+                    <option value="618491792266736620">SOMALIA</option>
+                    <option value="618491792277441676">SOUTH AFRICA</option>
+                    <option value="618491792277879253">
+                      SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS
+                    </option>
+                    <option value="618491792277680999">SOUTH SUDAN</option>
+                    <option value="618491792276811470">SRI LANKA</option>
+                    <option value="618491792274919988">SURINAME</option>
+                    <option value="618491792277745511">
+                      SVALBARD AND JAN MAYEN
+                    </option>
+                    <option value="618491792286708792">SWAZILAND</option>
+                    <option value="618491792285624257">SWITZERLAND</option>
+                    <option value="618491792284466741">TAIWAN</option>
+                    <option value="618491792286402075">TAJIKISTAN</option>
+                    <option value="618491792284152199">
+                      TANZANIA, UNITED REPUBLIC OF
+                    </option>
+                    <option value="618491792285704718">THAILAND</option>
+                    <option value="618491792292674808">TIMOR-LESTE</option>
+                    <option value="618491792291050809">TOGO</option>
+                    <option value="618491792293137692">TOKELAU</option>
+                    <option value="618491792292707581">TONGA</option>
+                    <option value="618491792295076646">
+                      TRINIDAD AND TOBAGO
+                    </option>
+                    <option value="618491792303413622">TUNISIA</option>
+                    <option value="618491792303449416">TURKEY</option>
+                    <option value="618491792302947051">TURKMENISTAN</option>
+                    <option value="618491792301228794">
+                      TURKS AND CAICOS ISLANDS
+                    </option>
+                    <option value="618491792300855036">TUVALU</option>
+                    <option value="618491792301925879">UGANDA</option>
+                    <option value="618491792309500426">UKRAINE</option>
+                    <option value="618491792310956882">
+                      UNITED ARAB EMIRATES
+                    </option>
+                    <option value="618491792310294380">
+                      UNITED STATES MINOR OUTLYING ISLANDS
+                    </option>
+                    <option value="618491792311759136">URUGUAY</option>
+                    <option value="618491792307920181">UZBEKISTAN</option>
+                    <option value="618491792316921382">VANUATU</option>
+                    <option value="618491792318001677">VENEZUELA</option>
+                    <option value="618491792318918770">
+                      VIRGIN ISLANDS, BRITISH
+                    </option>
+                    <option value="618491792320146964">
+                      VIRGIN ISLANDS, U.S.
+                    </option>
+                    <option value="618491792317728786">
+                      WALLIS AND FUTUNA
+                    </option>
+                    <option value="618491792327851734">WESTERN SAHARA</option>
+                    <option value="618491792327026108">YEMEN</option>
+                    <option value="618491792324565520">ZAMBIA</option>
+                    <option value="618491792327834655">ZIMBABWE</option>
+                  </select>
+                  <img
+                    width="20px"
+                    height="20px"
+                    src="/img/down.png"
+                    alt="down"
+                  />
+                </div>
+                <div class="left_toggle">
+                  <p>Duyệt tự động</p>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div class="left_toggle">
+                  <p>Data feed</p>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="left_button">
+                <button>Đặt lại</button>
+                <button>Áp dụng</button>
+              </div>
+            </div>
+          </div>
+          <div class="col_right">
+            <div>
+              <div class="right_filter">
+                <ul class="slider list-cate">
+                  <div class="prev-btn d-md-flex d-none">
+                    <img
+                      width="20px"
+                      height="20px"
+                      src="/img/vector_left.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="next-btn d-md-flex d-none">
+                    <img
+                      width="20px"
+                      height="20px"
+                      src="/img/vector_right.png"
+                      alt=""
+                    />
+                  </div>
+                  <li id="foryou" class="active">
+                    <i class="fas fa-star"></i>
+                    <p>Dành cho bạn</p>
+                  </li>
+                  <li id="food">
+                    <i class="fas fa-hamburger"></i>
+                    <p>Thực phẩm, đồ uống</p>
+                  </li>
+                  <li id="ecommerce">
+                    <i class="fas fa-shopping-bag"></i>
+                    <p>TMĐT</p>
+                  </li>
+                  <li id="services">
+                    <i class="far fa-credit-card"></i>
+                    <p>Dịch vụ tài chính</p>
+                  </li>
+                  <li id="travel">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <p>Du lịch &amp; Giải trí</p>
+                  </li>
+                  <li id="mobile">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p>Mobile app</p>
+                  </li>
+                  <li id="online">
+                    <i class="fab fa-internet-explorer"></i>
+                    <p>Dịch vụ trực tuyến</p>
+                  </li>
+                  <li id="education">
+                    <i class="fas fa-book"></i>
+                    <p>Giáo dục</p>
+                  </li>
+                  <li id="tele">
+                    <i class="fas fa-wifi"></i>
+                    <p>Viễn thông</p>
+                  </li>
+                  <li id="betiful">
+                    <i class="fas fa-paint-brush"></i>
+                    <p>Làm đẹp</p>
+                  </li>
+                  <li id="land">
+                    <i class="fas fa-building"></i>
+                    <p>Bất động sản</p>
+                  </li>
+                  <li id="distraction">
+                    <i class="fab fa-youtube"></i>
+                    <p>Giải trí</p>
+                  </li>
+                  <li id="game">
+                    <i class="fas fa-gamepad"></i>
+                    <p>Game</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="right_status">
+                <ul>
+                  <li id="run" class="activeBG"><p>Đang chạy</p></li>
+                  <li id="easy"><p>Dễ kiếm tiền</p></li>
+                  <li id="shop"><p>Shop trên sàn</p></li>
+                  <li id="review"><p>Đánh giá cao</p></li>
+                  <li id="campaign"><p>Chiến dịch mới</p></li>
+                  <li id="hunter"><p>Săn thưởng</p></li>
+                </ul>
+                <div class="right_select">
+                  <div>
+                    Sắp xếp theo
+                    <i class="fas fa-sort-down"></i>
+                  </div>
+                  <div class="option dn">
+                    <div id="new">Mới nhất</div>
+                    <div id="best">Tốt nhất</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right_contents"></div>
+            <div class="pagination">
+              <i class="fas fa-arrow-left"></i>
+              <div class="page">
+                <span>1</span>
+                <span>2</span>
+                <span>...</span>
+                <span>8</span>
+                <span>9</span>
+              </div>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="rows container">
+        <div class="col_left d-md-flex d-none">
+          <img width="38.83px" height="24px" src="/img/logo.png" alt="logo" />
+          ACCESSTRADE
+        </div>
+        <div class="col_right">
+          <a>Bản quyền © 2023 thuộc về Công ty Interspace Vietnam.</a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>

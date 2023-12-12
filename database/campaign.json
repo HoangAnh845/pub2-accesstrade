@@ -1,0 +1,531 @@
+[
+    {
+        "id": "foryou",
+        "name": "Cho bạn",
+        "status": [
+            {
+                "id": "run",
+                "name": "Đang chạy",
+                "data": [
+                    {
+                        "img": "/img/vpbank.png",
+                        "name": "VPBank mở tài khoản ngân hàng",
+                        "star": "4",
+                        "rose": "50.000đ",
+                        "epc": "10,5K",
+                        "cvr": "20%"
+                    },
+                    {
+                        "img": "/img/techcombank.png",
+                        "name": "TECHCOMBANK mở tài khoản",
+                        "star": "4",
+                        "rose": "50.000đ",
+                        "epc": "10,5K",
+                        "cvr": "20%"
+                    },
+                    {
+                        "img": "/img/acb.png",
+                        "name": "ACB ONE",
+                        "star": "4",
+                        "rose": "50.000đ",
+                        "epc": "10,5K",
+                        "cvr": "20%"
+                    },
+                    {
+                        "img": "/img/kbank.png",
+                        "name": "KBANK LOAN",
+                        "star": "4",
+                        "rose": "50.000đ",
+                        "epc": "10,5K",
+                        "cvr": "20%"
+                    },
+                    {
+                        "img": "/img/dodo_pizza.png",
+                        "name": "Dodo pizza voucher",
+                        "star": "4",
+                        "rose": "50.000đ",
+                        "epc": "10,5K",
+                        "cvr": "20%"
+                    },
+                    {
+                        "img": "/img/tinvay.png",
+                        "name": "TINVAY - Vay dễ dàng, Duyệt cấp tốc",
+                        "star": "4",
+                        "rose": "50.000đ",
+                        "epc": "10,5K",
+                        "cvr": "20%"
+                    },
+                    {
+                        "img": "/img/vpbank.png",
+                        "name": "Highlands Redeem",
+                        "star": "4",
+                        "rose": "50.000đ",
+                        "epc": "10,5K",
+                        "cvr": "20%"
+                    },
+                    {
+                        "img": "/img/vpbank.png",
+                        "name": "Highlands Redeem",
+                        "star": "4",
+                        "rose": "50.000đ",
+                        "epc": "10,5K",
+                        "cvr": "20%"
+                    }
+                ]
+            },
+            {
+                "id": "easy",
+                "name": "Dễ kiếm tiền",
+                "data": [
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1701659571_avatar_1701659571.gif",
+                        "name": "LAZADA (CPS)",
+                        "star": "4",
+                        "rose": "26,4%",
+                        "epc": "",
+                        "cvr": ""
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1678443088_avatar_1678443088.png",
+                        "name": "[KBank] Mở tài khoản ngân hàng KPlus",
+                        "star": "0",
+                        "rose": "85,000 VND",
+                        "epc": "3.22K",
+                        "cvr": "22.64%"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1701165828_avatar_1701165827.gif",
+                        "name": "Shopee Việt Nam Smartlink cho tất cả thiết bị",
+                        "star": "4",
+                        "rose": "45.000",
+                        "epc": "1942",
+                        "cvr": "18%"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1697010047_avatar_1697010047.jpg",
+                        "name": "VNPAY Taxi - Giảm 80K khi đặt xe qua VNPAY",
+                        "star": "0",
+                        "rose": "43.000",
+                        "epc": "0",
+                        "cvr": "0"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1668678123_avatar_1668678123.gif",
+                        "name": "TIMA - VAY TRONG NGÀY",
+                        "star": "4",
+                        "rose": "500.000VNĐ",
+                        "epc": "",
+                        "cvr": ""
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1661757902_avatar_1661757902.png",
+                        "name": "TINVAY - Vay dễ dàng, Duyệt cấp tốc",
+                        "star": "3",
+                        "rose": "385,000 VND",
+                        "epc": "979.03",
+                        "cvr": "45.67 %"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1700045685_avatar_1700045685.gif",
+                        "name": "IDV TỪ LIÊM - hoa hồng 64K",
+                        "star": "0",
+                        "rose": "64.000 VNĐ",
+                        "epc": "0",
+                        "cvr": "0"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1693301236_avatar_1693301236.gif",
+                        "name": "TIKI (CPS)",
+                        "star": "4",
+                        "rose": "50000",
+                        "epc": "485",
+                        "cvr": "2%"
+                    }
+                ]
+            },
+            {
+                "id": "shop",
+                "name": "Shop trên sàn",
+                "data": [
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1681788655_avatar_1681788655.png",
+                        "name": "Unilever Health & Beauty Lazada content",
+                        "star": "0",
+                        "rose": "5%",
+                        "epc": "50.05K",
+                        "cvr": "9.79%"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1664360260_avatar_1664360260.png",
+                        "name": "SAPPORO SHOPEE KOL",
+                        "star": "0",
+                        "rose": "10%",
+                        "epc": "7.47K",
+                        "cvr": "20%"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1658982964_avatar_1658982964.jpg",
+                        "name": "CALIFORNIA SHOPEE KOL",
+                        "star": "0",
+                        "rose": "13%",
+                        "epc": "0",
+                        "cvr": "0"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1655692097_avatar_1655692097.jpg",
+                        "name": "UMIHOME | Organic in Viet Nam SHOPEE KOL",
+                        "star": "0",
+                        "rose": "7.5%",
+                        "epc": "4.86K",
+                        "cvr": "80%"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1663659231_avatar_1663659231.png",
+                        "name": "UNILEVE - SUNLIGHT LAZADA CPS - Sản phẩm chăm sóc gia đình",
+                        "star": "0",
+                        "rose": "8.4%",
+                        "epc": "109.05",
+                        "cvr": "2.56%"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1681788655_avatar_1681788655.png",
+                        "name": "Unilever Health & Beauty Lazada content",
+                        "star": "0",
+                        "rose": "5%",
+                        "epc": "50.05K",
+                        "cvr": "9.79%"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1693899582_avatar_1693899582.jpg",
+                        "name": "Bibica Lazada KOL",
+                        "star": "0",
+                        "rose": "10%",
+                        "epc": "0",
+                        "cvr": "10%"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1681788655_avatar_1681788655.png",
+                        "name": "Unilever Health & Beauty Lazada content",
+                        "star": "0",
+                        "rose": "5%",
+                        "epc": "50.05K",
+                        "cvr": "9.79K%"
+                    }
+                ]
+            },
+            {
+                "id": "review",
+                "name": "Đánh giá cao",
+                "data": [
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1655302786_avatar_1655302786.gif",
+                        "name": "MB Bank - LINK GIỚI THIỆU",
+                        "star": "4",
+                        "rose": "70,000 vnd",
+                        "epc": "",
+                        "cvr": ""
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1697616892_avatar_1697616892.gif",
+                        "name": "TNEX (ANDROID)- HOA HỒNG eKYC",
+                        "star": "5",
+                        "rose": "65,000",
+                        "epc": "",
+                        "cvr": ""
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1693301236_avatar_1693301236.gif",
+                        "name": "TIKI (CPS)",
+                        "star": "5",
+                        "rose": "50000",
+                        "epc": "",
+                        "cvr": ""
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1701659571_avatar_1701659571.gif",
+                        "name": "LAZADA (CPS)",
+                        "star": "4",
+                        "rose": "26.4%",
+                        "epc": "",
+                        "cvr": ""
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1701165828_avatar_1701165827.gif",
+                        "name": "Shopee Việt Nam Smartlink cho tất cả thiết bị",
+                        "star": "4",
+                        "rose": "45.000",
+                        "epc": "",
+                        "cvr": ""
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1701317066_avatar_1701317066.gif",
+                        "name": "VNPAY - tặng KH mới 50K",
+                        "star": "5",
+                        "rose": "58,000",
+                        "epc": "",
+                        "cvr": ""
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1697616863_avatar_1697616863.gif",
+                        "name": "TNEX (IOS)- HOA HỒNG eKYC",
+                        "star": "5",
+                        "rose": "65,000",
+                        "epc": "",
+                        "cvr": ""
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1698912167_avatar_1698912167.png",
+                        "name": "VPBank - Phát sinh giao dịch (không nhập mã)",
+                        "star": "4",
+                        "rose": "90,000 VNĐ",
+                        "epc": "",
+                        "cvr": ""
+                    }
+                ]
+            },
+            {
+                "id": "campaign",
+                "name": "Chiến dịch mới",
+                "data": [
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1700795121_avatar_1700795121.png",
+                        "name": "PNJ CASHBACK",
+                        "star": "0",
+                        "rose": "1.4%",
+                        "epc": "0",
+                        "cvr": "0"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1700046793_avatar_1700046793.gif",
+                        "name": "UOB CREDIT CASHBACK",
+                        "star": "0",
+                        "rose": "175.000 VNĐ",
+                        "epc": "0",
+                        "cvr": "0"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1700046793_avatar_1700046793.gif",
+                        "name": "UOB CREDIT LAZADA",
+                        "star": "0",
+                        "rose": "1.4%",
+                        "epc": "0",
+                        "cvr": "0"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1699435828_avatar_1699435828.gif",
+                        "name": "BIDV Tây Hồ IOS",
+                        "star": "0",
+                        "rose": "60000",
+                        "epc": "0",
+                        "cvr": "0"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1699435828_avatar_1699435828.gif",
+                        "name": "BIDV Tây Hồ Android",
+                        "star": "0",
+                        "rose": "60000",
+                        "epc": "0",
+                        "cvr": "0"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1698311214_avatar_1698311214.png",
+                        "name": "VIETTEL TELECOM",
+                        "star": "0",
+                        "rose": "52000",
+                        "epc": "0",
+                        "cvr": "0"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1701163785_avatar_1701163785.gif",
+                        "name": "VIB - THẺ TÍN DỤNG",
+                        "star": "0",
+                        "rose": "90000",
+                        "epc": "0",
+                        "cvr": "0"
+                    },
+                    {
+                        "img": "https://content.accesstrade.vn/adv/1700045685_avatar_1700045685.gif",
+                        "name": "BIDV TỪ LIÊM - hoa hồng 64K",
+                        "star": "0",
+                        "rose": "64.000 VNĐ",
+                        "epc": "0",
+                        "cvr": "0"
+                    }
+                ]
+            },
+            {
+                "id": "hunter",
+                "name": "Săn thưởng",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "food",
+        "name": "Thực phẩn, đồ uống",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "ecommerce",
+        "name": "TMĐT",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "services",
+        "name": "Dịch vụ tài chính",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "travel",
+        "name": "Du lịch & Giải trí",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "mobile",
+        "name": "Mobile app",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "online",
+        "name": "Dịch vụ trực tuyến",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "education",
+        "name": "Giáo dục",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "tele",
+        "name": "Viễn thông",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "betiful",
+        "name": "Làm đẹp",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "land",
+        "name": "Bất động sản",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "distraction",
+        "name": "Giải trí",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    },
+    {
+        "id": "game",
+        "name": "Game",
+        "status": [
+            {
+                "name": "Tốt nhất",
+                "data": []
+            },
+            {
+                "name": "Mới nhất",
+                "data": []
+            }
+        ]
+    }
+]
