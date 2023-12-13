@@ -41,7 +41,7 @@ prevBtn.addEventListener('click', prevSlide);
 // Xử lý get data
 function fetchData() {
   return new Promise((resolve, reject) => {
-    fetch('http://localhost:8080/database/campaign')
+    fetch('https://pub2-accesstrade.onrender.com/database/campaign')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
